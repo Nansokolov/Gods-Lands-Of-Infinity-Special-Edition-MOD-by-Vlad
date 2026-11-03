@@ -1,6 +1,6 @@
 # GODS: Lands of Infinity Special Edition - MOD by Vlad
 
-Version 1.5.2. An unofficial fan mod: bug fixes, new merchants, quests, jobs, a hiring guild, respawning hunting areas, world loot, new bosses and a small dungeon. Full list in `CHANGELOG.md`.
+Version 1.6. An unofficial fan mod: bug fixes, new merchants, quests, jobs, a hiring guild, respawning hunting areas, world loot, new bosses and a small dungeon and party banter. Full list in `CHANGELOG.md`.
 
 You need your own installed copy of GODS: Lands of Infinity Special Edition, and an unmodified `Gods-XP.exe`. The mod was made on one copy on Windows 11. The installer refuses other versions of the exe.
 
@@ -30,7 +30,8 @@ Run `uninstall.bat` and give it the same game folder. It restores the files from
 The game can run through DXVK: put the 32-bit `d3d9.dll` from a DXVK release in the `Exe` folder. Delete it to go back.
 
 ## Known limits
-- Dungeon: 16 monsters plus a boss. The map post can also be used to leave it.
+- Dungeon: 15 monsters plus a boss. The map post can also be used to leave it.
+- Companion banter plays only on entering some areas.
 - Clothing restored from the game's unused items rendered black, so it was left out.
 - Not fully tested: gatherer restock, crafting from the new recipes, and the Grubnak and Asterion boss quests.
 

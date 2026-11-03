@@ -1,6 +1,6 @@
 # Changelog - what the mod adds
 
-Version 1.5.2. Most of this needs a new game.
+Version 1.6. Most of this needs a new game.
 
 ## Controls and interface
 - Hold Shift for 5x speed.
@@ -50,5 +50,9 @@ Version 1.5.2. Most of this needs a new game.
 
 ## The Undercroft (dungeon)
 - The Warden in Slavingrad opens it for 2000 gold per entry.
-- 16 monsters, weaker near the entrance and stronger further in. They return each time you enter.
-- Boss Black Death pays 2500 gold once. Collect from the Warden or the Keeper at the entrance.
+- 14 monsters, a spider queen and the boss Black Death, in a dark night-time map. Enemies get stronger further from the entrance and return each time you enter.
+- Spiders drop potions, also in Spider Highlands, and the queen can drop a Super Power Strike crystal.
+- Black Death pays once: 2500 gold, two top crystals and three Strong Healing Potions. Collect from the Warden or the Keeper at the entrance.
+
+## Party banter
+- 14 short conversations between companions. They play on entering Petrovce, Slavingrad, the Cursed Forest, Thelminadris, the Border and Ladomyr, when the right companions are with you.
