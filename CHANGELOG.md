@@ -1,6 +1,6 @@
 # Changelog - what the mod adds
 
-Version 1.6. Most of this needs a new game.
+Version 1.7. Most of this needs a new game.
 
 ## Controls and interface
 - Hold Shift for 5x speed.
@@ -54,5 +54,14 @@ Version 1.6. Most of this needs a new game.
 - Spiders drop potions, also in Spider Highlands, and the queen can drop a Super Power Strike crystal.
 - Black Death pays once: 2500 gold, two top crystals and three Strong Healing Potions. Collect from the Warden or the Keeper at the entrance.
 
+## New monsters (the Undercroft)
+- Stone Golem, Forest Guard, Minotaur and Mutant with new models, animated on the game's own Rock Element skeleton. Golem and Forest Guard are larger than before.
+
+## Buildings
+- Petrovce: a walk-in inn with an innkeeper and five guests to talk to.
+- Slavingrad: two walk-in houses (Householder by the table).
+
 ## Party banter
-- 14 short conversations between companions. They play on entering Petrovce, Slavingrad, the Cursed Forest, Thelminadris, the Border and Ladomyr, when the right companions are with you.
+- 46 short exchanges between companions (Ervin, Quenthanar, Lille'Nae, Boran, Kazimir, Alwyra, Wolfgamaar), one per entry into a town or wild area.
+- Ongoing threads play in order: Ervin and Vivien from first questions to a farewell late in the story, Alwyra's ballad, Kazimir's past, the barbarian in the north.
+- Banter writing by Vlad (v1.7). Works on existing saves.

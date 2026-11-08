@@ -1,6 +1,6 @@
 # GODS: Lands of Infinity Special Edition - MOD by Vlad
 
-Version 1.6. An unofficial fan mod: bug fixes, new merchants, quests, jobs, a hiring guild, respawning hunting areas, world loot, new bosses and a small dungeon and party banter. Full list in `CHANGELOG.md`.
+Version 1.7. An unofficial fan mod: bug fixes, new merchants, quests, jobs, a hiring guild, respawning hunting areas, world loot, new bosses, a small dungeon with new monsters, walk-in houses and an inn, and party banter. Full list in `CHANGELOG.md`.
 
 You need your own installed copy of GODS: Lands of Infinity Special Edition, and an unmodified `Gods-XP.exe`. The mod was made on one copy on Windows 11. The installer refuses other versions of the exe.
 
@@ -22,7 +22,7 @@ Run `uninstall.bat` and give it the same game folder. It restores the files from
 - **Ctrl+click an item**: the original behaviour, item on the cursor.
 
 ## Where to start
-- **Petrovce**: Radoslava the Herbalist, Velimir the Mage, Radim the Hunter.
+- **Petrovce**: the new inn, Radoslava the Herbalist, Velimir the Mage, Radim the Hunter.
 - **Slavingrad**: Bounty Clerk, Milena the Armourer, Oswin the Arcanist, Zdenek the Bowyer, Bogumil the Guildmaster, Lord Radovan, the Undercroft Warden.
 - Hand in trophies to the bounty givers to earn reputation, which unlocks better stock.
 
@@ -34,5 +34,10 @@ The game can run through DXVK: put the 32-bit `d3d9.dll` from a DXVK release in 
 - Companion banter plays only on entering some areas.
 - Clothing restored from the game's unused items rendered black, so it was left out.
 - Not fully tested: gatherer restock, crafting from the new recipes, and the Grubnak and Asterion boss quests.
+
+## Credits and third-party assets
+- Building pieces and props: Kenney (Retro Fantasy Kit, Retro Textures Fantasy) and Kay Lousberg (KayKit Dungeon Pack), CC0.
+- Stone Golem, Forest Guard, Minotaur and Mutant models: free-to-use licences from their authors, on condition that they are not used for AI training. Do not extract these models from the mod for AI training or datasets.
+- Banter writing: Vlad.
 
 This mod is not affiliated with or endorsed by the game's developers or publisher.
