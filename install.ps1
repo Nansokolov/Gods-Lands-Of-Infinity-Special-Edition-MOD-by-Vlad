@@ -1,8 +1,8 @@
-# GODS: Lands of Infinity SE - MOD by Vlad. Rebuilds patch.file and Gods-XP.exe from the player's own game plus files\mod.delta.
+# GODS: Lands of Infinity SE - MOD by Vlad. Rebuilds patch.file and Gods-XP.exe from the player's own game plus files\mod.delta.gz (gzip-compressed delta).
 param([string]$GameDir)
 $ErrorActionPreference = 'Stop'
 $cs = @'
-using System; using System.IO; using System.Text; using System.Security.Cryptography; using System.Collections.Generic;
+using System; using System.IO; using System.IO.Compression; using System.Text; using System.Security.Cryptography; using System.Collections.Generic;
 public static class GodsMod {
   const string ExeSha = "bb4e9235c6a0c5451f31ce91ca28e1d387c6174ba70ea26c319f9cd158b2acdb";
   static string Hex(byte[] b){ StringBuilder s=new StringBuilder(); foreach(byte x in b) s.Append(x.ToString("x2")); return s.ToString(); }
@@ -16,6 +16,9 @@ public static class GodsMod {
   // Writes each output to tmpDir. Returns the list of relative output names. Throws if any result differs from the expected hash.
   public static string[] Build(string delta,string dataFile,string patchFile,string exeFile,string tmpDir){
     List<string> names=new List<string>(); byte[] buf=new byte[1<<20];
+    if(delta.EndsWith(".gz")){ string plain=Path.Combine(tmpDir,"mod.delta");
+      using(FileStream gi=File.OpenRead(delta)) using(GZipStream z=new GZipStream(gi,CompressionMode.Decompress)) using(FileStream go=File.Create(plain)) z.CopyTo(go);
+      delta=plain; }
     using(BinaryReader r=new BinaryReader(File.OpenRead(delta))){
       if(Encoding.ASCII.GetString(r.ReadBytes(8))!="GODSMOD1") throw new Exception("mod.delta is damaged.");
       uint outputs=r.ReadUInt32();
@@ -59,7 +62,7 @@ try {
   $tmp = Join-Path $GameDir 'mod_tmp'
   New-Item -ItemType Directory -Force -Path $tmp | Out-Null
   Write-Host 'Building the mod files...'
-  [void][GodsMod]::Build((Join-Path $here 'files\mod.delta'), (Join-Path $GameDir 'data.file'), $srcPatch, $srcExe, $tmp)
+  [void][GodsMod]::Build((Join-Path $here 'files\mod.delta.gz'), (Join-Path $GameDir 'data.file'), $srcPatch, $srcExe, $tmp)
   if ($fresh) {
     New-Item -ItemType Directory -Force -Path $bak | Out-Null
     Copy-Item -LiteralPath $srcExe -Destination (Join-Path $bak 'Gods-XP.exe') -Force

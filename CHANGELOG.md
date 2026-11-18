@@ -1,6 +1,22 @@
 # Changelog - what the mod adds
 
-Version 1.7. Most of this needs a new game.
+Version 1.8. Most of this needs a new game.
+
+## New in 1.8
+- **Four-level dungeon** under Slavingrad, opened by the Undercroft Warden (300 gold):
+  - Level 1, the Undercroft: wolves, goblins and gorons; boss Greyfang.
+  - Level 2, the Deep Cave: spiders, bears and Kordosh; boss Black Death.
+  - Level 3, the Old Crypt: trolls, barbarians, golems, minotaurs and mutants; two bosses, the Crypt Lord and Urgash the Bonebreaker.
+  - Level 4, the Endless Halls: a maze four times the size of the crypt with the strongest monsters; boss the Nameless One.
+  - Each level has its own keeper, a quest, a boss reward and gear hidden in the far dead ends.
+  - Regular monsters always return when you re-enter a level, whoever starts the fight, and their bodies no longer block the way. Monsters attack only when you come close.
+- **Cursed Village**: a new place on the world map, reached by road from Slavingrad, haunted by skeletons. More is planned there.
+- **Goblins** in the Marshy Land and Sharkan's Dale, with the goblin chief Snagrik and a goblin shaman.
+- **Baba Jaroslava**, a witch in the Marshy Land: four quests, her own shop and two shelves of rarer goods that open as you help her.
+- **Hilda** at the Sleeping Boar in Petrovce sells food and drink and passes on rumours.
+- Walk-in buildings now have proper door frames.
+
+Everything the mod already added in earlier versions:
 
 ## Controls and interface
 - Hold Shift for 5x speed.
